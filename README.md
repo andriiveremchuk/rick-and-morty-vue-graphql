@@ -1,5 +1,9 @@
 # rick-and-morty
 
+## Links
+
+[Here you can find link to the deployed application](https://rick-and-morty-vue-js.herokuapp.com)
+
 ## Project setup
 ```
 npm install
