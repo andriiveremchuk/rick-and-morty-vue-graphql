@@ -12,7 +12,7 @@
       </template>
       <template v-if="!error && !loading">
         <div class="column" v-for="(character, index) in favouriteCharacters" :key="index">
-          <router-link :to="`/character/${character.id}`">
+          <router-link :to="`/characters/${character.id}`">
             <Card :character="character" @storage-updated="getFreshData" />
           </router-link>
         </div>
